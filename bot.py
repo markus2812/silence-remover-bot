@@ -12,8 +12,7 @@ logging.basicConfig(
 )
 
 # Тут встав свій токен, бро.
-# Або краще задай його як змінну оточення BOT_TOKEN
-TOKEN = os.getenv("BOT_TOKEN", "YOUR_TOKEN_HERE")
+TOKEN = "8306500489:AAFyCZqdkjobnnVlcwCZALEJZgCMSFc3ZhI"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(
